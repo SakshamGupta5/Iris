@@ -1,0 +1,5 @@
+def get_joke():
+    import random
+    l = ['I invented a new word today: Plagiarism.', 'Rest in peace boiling water. You will be mist!', 'How do you throw a space party? You planet!', 'Want to hear a construction joke? Oh never mind, I am still working on that one.', 'Why dont scientists trust atoms? Because they make up everything!', 'I hate Russian dolls… they are so full of themselves!', 'Talk is cheap? Have you ever talked to a lawyer?', 'Why did the gym close down? It just did not work out!', 'Two artists had an art contest. It ended in a draw!', 'I have a fear of speed bumps. But I am slowly getting over it.', 'What do you call a boomerang that does not come back? A stick!', 'You know what I saw today? Everything I looked at.', 'Why are ghosts such bad liars? Because they are easy to see through.', 'What do you call a singing laptop? A Dell!', 'Why was six afraid of seven? Because seven ate nine.', 'How do trees get online? They just log on!']
+    n = random.randint(0, len(l) - 1)
+    return l[n]
